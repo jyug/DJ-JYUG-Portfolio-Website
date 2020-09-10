@@ -87,7 +87,7 @@
   .merchants-container {
     margin-top: 25vh;
     margin-bottom: 150px;
-    height: 90vh;
+    height: 38vh;
   }
 
 </style>
