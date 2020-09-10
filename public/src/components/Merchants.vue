@@ -85,8 +85,9 @@
 
 <style scoped>
   .merchants-container {
-    margin-top: 150px;
+    margin-top: 25vh;
     margin-bottom: 150px;
+    height: 90vh;
   }
 
 </style>

@@ -1,7 +1,16 @@
 <template>
   <el-card class="box-card" shadow="never">
+    <el-row>
+      <el-col :span=12 :offset=6>
+        <div class="amazon-disclamier">
+          DJJYUG.com is a participant in the Amazon Services LLC Associates Program, 
+          an affiliate advertising program designed to provide a means for sites to earn advertising fees 
+          by advertising and linking to Amazon.com. As an Amazon Associate I earn from qualifying purchases.
+        </div>
+      </el-col>
+    </el-row>
     <div class="text">
-      @2020 JYUG
+      ©2020 JYUG
     </div>
   </el-card>
 </template>
@@ -27,5 +36,12 @@
     color: #fff;
     text-align: center;
 
+  }
+
+  .amazon-disclamier {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px
   }
 </style>
